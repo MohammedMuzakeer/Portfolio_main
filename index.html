@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X_UA-Compatible" content=""IE-edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigins="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Cyber Engineer</p>
+                    <h1>Hi, I'm <span>Muzakeer</span><br> From India</h1>
+                </div>
+            </div>
+        </div>
+        <!-- -----------------about--------------- -->
+        <div id="about">
+            <div class="container">
+                <div class="rower">
+                    <div class="about-col-1">
+                        <img src="images/Muzakeer Photo.JPG">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1><br>
+                        <p>Lorem ipsum is typically a corrupted version of De finibus bonorum et malorum, a 1st-century BC text by the Roman statesman and philosopher Cicero, with words altered, added, and removed to make it nonsensical and improper Latin.
+                            Versions of the Lorem ipsum text have been used in typesetting at least since the 1960s,</p>
+                        
+                        <div class="tab-titles">
+                             <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                             <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                             <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills ">
+                            <ul>
+                                <li><span>Cyber Engineer</span><br>Ethical Hacking</li>
+                                <li><span>Web Developer</span><br>Web app Development</li>
+                                <li><span>Blockchain Developer</span><br>Creating Blockchain apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2021 - 2021 </span><br>Android Developer</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2019</span><br>B.Tech Information Technology</li>
+                                <li><span>2021</span><br>Cyber Analyst - Ethical Hacking</li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ------services------ -->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-building-shield"></i>
+                        <br>
+                        <h2>Cyber Engineer</h2><br>
+                        <p>Lorem ipsum is typically a corrupted version of De finibus bonorum et malorum, a 1st-century BC text by the Roman statesman and philosopher Cicero, with words altered, added, and removed to make it nonsensical and improper Latin.
+                            Versions </p>
+                            <a href="#">Learn more...</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <br>
+                        <h2>Web Developer</h2><br>
+                        <p>Lorem ipsum is typically a corrupted version of De finibus bonorum et malorum, a 1st-century BC text by the Roman statesman and philosopher Cicero, with words altered, added, and removed to make it nonsensical and improper Latin.
+                            Versions </p>
+                            <a href="#">Learn more...</a>
+                    </div>
+                    <div>
+                        
+                        <i class="fa-brands fa-creative-commons-nc"><br></i>
+                        
+                        <h2>Blockchain Developer</h2><br>
+                        <p>Lorem ipsum is typically a corrupted version of De finibus bonorum et malorum, a 1st-century BC text by the Roman statesman and philosopher Cicero, with words altered, added, and removed to make it nonsensical and improper Latin.
+                            Versions </p>
+                            <a href="#">Learn more...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- -------------portfolio----------- -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="Images/work-Image-1.png" alt="">
+                        <div class="layer">
+                            <h3>Secure Development</h3>
+                            <p>Lorem ipsum is typically a corrupted version of De finibus bonorum et malorum, a 1st-century BC text by the Roman statesman and philosopher Cicero, with words altered, added, and removed to make it nonsensical and improper Latin.
+                                Versions</p>
+                                <a href="#"><i class="fa-solid fa-link"></i>
+                                </a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Images/work-Image-1.png" alt="">
+                        <div class="layer">
+                            <h3>Protecting Data</h3>
+                            <p>Lorem ipsum is typically a corrupted version of De finibus bonorum et malorum, a 1st-century BC text by the Roman statesman and philosopher Cicero, with words altered, added, and removed to make it nonsensical and improper Latin.
+                                Versions</p>
+                                <a href="#"><i class="fa-solid fa-link"></i>
+                                </a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Images/work-Image-1.png" alt="">
+                        <div class="layer">
+                            <h3>Developing Enrich App</h3>
+                            <p>Lorem ipsum is typically a corrupted version of De finibus bonorum et malorum, a 1st-century BC text by the Roman statesman and philosopher Cicero, with words altered, added, and removed to make it nonsensical and improper Latin.
+                                Versions</p>
+                                <a href="#"><i class="fa-solid fa-link"></i>
+                                </a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+                
+            </div>
+        </div>
+        <!-- -----------contact--------- -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">       
+                    <div class="contact-left">
+                        <h1>
+                            <h1 class="sub-title">Contact Me</h1>
+                            <!-- <br> -->
+                            <p><i class="fa-solid fa-at"></i>dialme@muzakeer.tech</p>
+                            <p><i class="fa-solid fa-phone"></i>+91 6385262317</p>
+                            <div class="social-icons">
+                                <a href="https://www.facebook.com/muzakeer2002?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="https://www.instagram.com/_muzuu.__"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="https://www.linkedin.com/in/mohammed-muzakeer-6878b5213"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <a href="#" download ="Muzakeer_Resume" class="btn btn2">Download CV</a>
+                </div>
+                    <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="=Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+                </div> 
+                </div>
+            </div>
+            <div class="copyright">
+                <p> Copyright © All Rights Reserved. Made by Muzakeer <i class="fa-solid fa-heart"></i> </p>
+            </div>
+        </div>
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        } 
+
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+            
+        }
+
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyCSU-A__btPR-hjdqYpWC4RlGJvYflFb6qKeyZOL-LbW1qY7f3VLMphC8hAGYVsex3ng/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    </body>
+</html>
